@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "brand": "Acer",
+        "description": "acer-aspire-ultrabookintel-core-i5",
+        "price": 200000,
+        "lappy": "277667"
+        
+    },
+    {
+        "id": 2,
+        "brand": "Acer",
+        "description": "acer-travelmate-computer-intel-core-i5",
+        "price": 220000,
+        "lappy": "462358"
+        
+    },
+    {
+        "id": 3,
+        "brand": "Asus",
+        "description": "asus-vivo-book-intel-core-i7",
+        "price": 200500,
+        "lappy": "101766"
+        
+    },
+    {
+        "id": 4,
+        "brand": "Asus",
+        "description": "intel-asus-rog-gl750v-core-i7",
+        "price": 250000,
+        "lappy": "101762"
+    },
+    {
+        "id": 5,
+        "brand": "Dell",
+        "description": "dell-inspiron-intel-core-i7",
+        "price": 400500,
+        "lappy": "114115"
+    },
+    {
+        "id": 6,
+        "brand": "Dell",
+        "description": "dell-latitude-358-intel-core-i5",
+        "price": 400500,
+        "lappy": "114112"
+        
+    },
+    {
+        "id": 7,
+        "brand": "Dell",
+        "description": "dell xps",
+        "price": 300000,
+        "lappy": "114110"
+        
+    },
+    {
+        "id": 8,
+        "brand": "Hp",
+        "description": "hp-envy-system-2-in-1-pc-hp",
+        "price": 280000,
+        "lappy": "124980"
+        
+    },
+    {
+        "id": 9,
+        "brand": "Hp",
+        "description": "hp-pavilion-x36-13-3-inch-i7-8gb-256gb-hdd",
+        "price": 350000,
+        "lappy": "124983"
+       
+    },
+    {
+        "id": 10,
+        "brand": "Hp",
+        "description": "hp-spectre-x36-13-ae-series-intel-core-i7",
+        "price": 400000,
+        "lappy": "124987"
+        
+    },
+    {
+        "id": 11,
+        "brand": "Lenovo",
+        "description": "lenovo-legion-intel-core-i7",
+        "price": 300000,
+        "lappy": "178843"
+      
+    },
+    {
+        "id": 12,
+        "brand": "Lenovo",
+        "description": "lenovo-thinkpad-intel-core-i5-lenovo",
+        "price": 420000,
+        "lappy": "134886"
+       
+    },
+    {
+        "id": 13,
+        "brand": "Lenovo",
+        "description": "netbook--lenovo-ideapad-72-s-14-intel-core",
+        "price": 500000,
+        "lappy": "134888"
+        
+    },
+    {
+        "id": 14,
+        "brand": "Macbook",
+        "description": "macbook-pro-system-macbook-air-apple-macbook-pro",
+        "price": 600000,
+        "lappy": "144551"
+        
+    },
+    {
+        "id": 15,
+        "brand": "Macbook",
+        "description": "mac-book-pro-macbook-air-system-macbook-pro-13-inc-macbook-pro-touch-bar",
+        "price": 400000,
+        "lappy": "144558"
+        
+    },
+    {
+        "id": 16,
+        "brand": "Microsoft",
+        "description": "microsoft-surface-pro-signature-surface-pro",
+        "price": 550000,
+        "lappy": "155558"
+        
+    },
+    {
+        "id": 17,
+        "brand": "Microsoft",
+        "description": "surface-book-2-lappy-surface-pro-4-surface-pro",
+        "price": 520000,
+        "lappy": "155555"
+        
+    },
+    {
+        "id": 18,
+        "brand": "Samsung",
+        "description": "samsung-15-notebook-9-silver-non-gaming-ultrabook",
+        "price": 400000,
+        "lappy": "164351"
+        
+    },
+    {
+        "id": 19,
+        "brand": "Samsung",
+        "description": "samsung-netbook-series-3",
+        "price": 280000,
+        "lappy": "164452"
+        
+    },
+    {
+        "id": 20,
+        "brand": "Samsung",
+        "description": "samsung-netbook-series-5",
+        "price": 280000,
+        "lappy": "164553"
+       
+    }
+
+]
