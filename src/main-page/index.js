@@ -8,6 +8,7 @@ import SearchResults from "../search-results";
 
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
 import LaptopFromQuery from "../laptop/LaptopFromQuery";
+import Inquiry from "../laptop/Inquiry";
 
 
 function App() {

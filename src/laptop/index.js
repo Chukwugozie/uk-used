@@ -1,9 +1,13 @@
 import "./laptop.css";
-//import { useState } from "react";
-//import emailIcon from "./Email.png";
-//import Inquiry from "./Inquiry";
+import { useState } from "react";
+import emailIcon from "./Email.png";
+import Inquiry from "./Inquiry";
 
 const Laptop = ({ laptop }) => {
+  const [inquiryShown,setInquiryShown] = useState(false);
+  const inquiryClick=()=>{
+    setInquiryShown(inquiryShown);
+  };
   
   return (
     <div>
@@ -17,7 +21,13 @@ const Laptop = ({ laptop }) => {
         <div className="col-md-5">
           <p className="price" > <text style={{ textDecoration: 'double line-through' }}>N</text> {laptop.price}</p>
           <p>{laptop.description}</p>
-          
+          <img
+            src={emailIcon}
+            height="50"
+            alt="inquiry"
+            onClick={inquiryClick}
+          />
+          {inquiryShown && <Inquiry laptop={laptop} />}
         </div>
       </div>
     </div>
