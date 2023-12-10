@@ -6,7 +6,7 @@ import Inquiry from "./Inquiry";
 const Laptop = ({ laptop }) => {
   const [inquiryShown,setInquiryShown] = useState(false);
   const inquiryClick=()=>{
-    setInquiryShown(inquiryShown);
+    setInquiryShown(!inquiryShown);
   };
   
   return (
