@@ -7,7 +7,7 @@ import LaptopFilter from "./laptop-filter";
 import SearchResults from "../search-results";
 
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
-//import LaptopFromQuery from "../laptop/LaptopFromQuery";
+import LaptopFromQuery from "../laptop/LaptopFromQuery";
 
 
 function App() {
@@ -34,13 +34,14 @@ function App() {
     <div className="container">
       <Header subtitle="Providing laptops to all at affordable prices" />
       <LaptopFilter allLaptops={allLaptops} />
-      <FeaturedLaptop  laptop={featuredLaptop}/>
+      
       
       <Routes>
 
         
         <Route path="/searchresults/:brand" element={<SearchResults allLaptops= {allLaptops}  />} />
-        <Route path="/" element={<FeaturedLaptop  />} />
+        <Route  path="/laptop/:id" element={<LaptopFromQuery allLaptops={allLaptops} />} />
+        <Route path="/" element={<FeaturedLaptop laptop={featuredLaptop} />} />
            
       </Routes> 
     </div>
