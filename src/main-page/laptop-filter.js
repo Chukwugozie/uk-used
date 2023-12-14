@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { LaptopContext } from "../context/laptopContext";
 
-const LaptopFilter = ({ allLaptops }) => {
+const LaptopFilter = () => {
+  const {allLaptops} = useContext(LaptopContext);
   const navigate = useNavigate();
 
   const brands = allLaptops

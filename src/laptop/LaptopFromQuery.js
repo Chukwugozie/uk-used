@@ -1,7 +1,11 @@
 import { useParams } from "react-router-dom";
 import Laptop from ".";
+import { useContext } from "react";
+import { LaptopContext } from "../context/laptopContext";
 
-const LaptopFromQuery = ({ allLaptops }) => {
+const LaptopFromQuery = () => {
+
+  const {allLaptops} = useContext(LaptopContext);
   const { id } = useParams();
   const laptop = allLaptops.find((l) => l.id === parseInt(id));
 
