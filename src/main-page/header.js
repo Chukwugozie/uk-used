@@ -13,7 +13,7 @@ import logo from "./Gozicom.png";
 //   }
 // }
 
-const Header = ({ subtitle, title }) => (
+const Header = ({ subtitle, }) => (
   <header className="row">
     <div className="col-md-5">
       <img src={logo} className="logo" alt="logo" />

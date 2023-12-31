@@ -1,7 +1,10 @@
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import LaptopsContext from "../context/laptopsContext";
 
-const LaptopFilter = ({ allLaptops }) => {
+const LaptopFilter = () => {
   const navigate = useNavigate();
+  const allLaptops = useContext(LaptopsContext);
 
   const brands = allLaptops
     ? Array.from(new Set(allLaptops.map((l) => l.brand)))

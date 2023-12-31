@@ -1,7 +1,10 @@
 import SearchResultsRow from "./search-results-row";
 import { useParams } from "react-router-dom";
+import { useContext } from "react";
+import LaptopsContext from "../context/laptopsContext";
 
-const SearchResults = ({ allLaptops }) => {
+const SearchResults = () => {
+  const allLaptops = useContext(LaptopsContext);
   const { brand } = useParams();
   const filteredLaptops = allLaptops.filter((l) => l.brand === brand);
 

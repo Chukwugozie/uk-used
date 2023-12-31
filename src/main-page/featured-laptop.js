@@ -1,7 +1,6 @@
 import Laptop from "../laptop";
 
-
-const FeaturedLaptop = ({ laptop }) => {
+const FeaturedLaptop = ({laptop}) => {
   if (laptop)
     return (
       <div>
